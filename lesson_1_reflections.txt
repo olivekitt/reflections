@@ -51,4 +51,9 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
     I will use it to write better code when I learn to program more complex things.
 
-LLLLL;;;;;;
+How can you use the staging area to make sure you have one commit per logical change?
+
+	If I work with more than one file, I'll change everything that is connected with 
+	that logical change in the first file then I'll use git add file_name 
+	to move changed file to staging area. I'll repeat that for each file that needs changes.
+	When I'm done, I'll commit using git commit. 
