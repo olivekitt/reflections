@@ -67,4 +67,14 @@ How do the diagrams help you visualize the branch structure?
 
 	They are very helpful because I have a clear image of all existing branches,
 	all commits on each branch and which branch I checked. Without a diagram,
-	I feel like I would be lost a little. 
+	I feel like I would be lost a little.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result is one branch with all commits of merged branches. It is possible to trace parents of all commits 
+	from that merged branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Manual merging gives us better control of our code, informs us about all inconsistencies without
+	relying on limiting Git capabilities. Automatic merging would save us time.
